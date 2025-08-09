@@ -1,1 +1,1 @@
-# task10-redux-edit
+Установить и запустить через npm run dev

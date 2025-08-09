@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+.icon-switch {
+  font-size: 32px;
+  cursor: pointer;
+  padding: 10px;
+  display: inline-block;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.shop-card {
+  width: 200px;
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.shop-card img {
+  max-width: 100%;
+}
+
+.shop-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.shop-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.shop-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
